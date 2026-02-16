@@ -1,0 +1,14 @@
+{
+  "description": "This file keeps track of which plugins should be installed.",
+  "dependencies": {
+    "homebridge": "1.11.2",
+    "homebridge-unifi-occupancy-lite": "0.0.20"
+  },
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "private": true
+}
