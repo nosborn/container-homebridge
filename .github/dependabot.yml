@@ -6,11 +6,15 @@ updates:
     directory: /
     schedule:
       interval: weekly
+    assignees:
+      - nosborn
 
   - package-ecosystem: github-actions
     directory: /
     schedule:
       interval: weekly
+    assignees:
+      - nosborn
 
   - package-ecosystem: npm
     directory: /
@@ -20,3 +24,5 @@ updates:
     cooldown:
       default-days: 7
       semver-major-days: 28
+    assignees:
+      - nosborn
